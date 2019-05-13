@@ -7,10 +7,10 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
 		//State defaults
-		state_description: "State description",
-    state_color: "#000000",
+    state_description: "Breach Count: <strong>0</strong> <br> Individuals Affected: <strong>0</strong>",
+    state_color: "#F8F8F8",
     state_hover_color: "#c23",
-    state_url: "http://www.suzannaschmeelk.com",
+    state_url: "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
     border_size: 1.5,
     border_color: "#ffffff",
     all_states_inactive: "no",
@@ -31,7 +31,7 @@ var simplemaps_usmap_mapdata={
     all_locations_hidden: "no",
     
 		//Label defaults
-		label_color: "#ffffff",
+		label_color: "#FFFFFF",
     label_hover_color: "#ffffff",
     label_size: 22,
     label_font: "Arial",
@@ -74,22 +74,22 @@ var simplemaps_usmap_mapdata={
   state_specific: {
     HI: {
       name: "Hawaii",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>40,800</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     AK: {
       name: "Alaska",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>3</strong> <br> Individuals Affected: <strong>51,447</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     FL: {
       name: "Florida",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>21</strong> <br> Individuals Affected: <strong>695,353</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default",
       inactive: "no"
@@ -103,8 +103,8 @@ var simplemaps_usmap_mapdata={
     },
     VT: {
       name: "Vermont",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>72,224</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
@@ -117,240 +117,240 @@ var simplemaps_usmap_mapdata={
     },
     RI: {
       name: "Rhode Island",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>2</strong> <br> Individuals Affected: <strong>7,212</strong>",
+      color: "#E0E0E0",
       hover_color: "default",
       url: "default"
     },
     NY: {
       name: "New York",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>14</strong> <br> Individuals Affected: <strong>843,738</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     PA: {
       name: "Pennsylvania",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>8</strong> <br> Individuals Affected: <strong>361,003</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     NJ: {
       name: "New Jersey",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>5</strong> <br> Individuals Affected: <strong>39,907</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     DE: {
       name: "Delaware",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>58,591</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     MD: {
       name: "Maryland",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>4</strong> <br> Individuals Affected: <strong>15,982</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     VA: {
       name: "Virginia",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>5</strong> <br> Individuals Affected: <strong>30,426</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     WV: {
       name: "West Virginia",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>6,282</strong>",
+      color: "#E0E0E0",
       hover_color: "default",
       url: "default"
     },
     OH: {
       name: "Ohio",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>12</strong> <br> Individuals Affected: <strong>141,699</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     IN: {
       name: "Indiana",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>9</strong> <br> Individuals Affected: <strong>688,523</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     IL: {
       name: "Illinois",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>14</strong> <br> Individuals Affected: <strong>86,904</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     CT: {
       name: "Connecticut",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>8</strong> <br> Individuals Affected: <strong>400,216</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     WI: {
       name: "Wisconsin",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>6</strong> <br> Individuals Affected: <strong>268,692</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     NC: {
       name: "North Carolina",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>4</strong> <br> Individuals Affected: <strong>2,702,309</strong>",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     DC: {
       name: "District of Columbia",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>19,254</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     MA: {
       name: "Massachusetts",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>10</strong> <br> Individuals Affected: <strong>267,553</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     TN: {
       name: "Tennessee",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>5</strong> <br> Individuals Affected: <strong>10,056</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     AR: {
       name: "Arkansas",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>3</strong> <br> Individuals Affected: <strong>213,759</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     MO: {
       name: "Missouri",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>9</strong> <br> Individuals Affected: <strong>450,175</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     GA: {
       name: "Georgia",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>11</strong> <br> Individuals Affected: <strong>1,196,434</strong>",
+      color: "#383838",
       hover_color: "default",
       url: "default"
     },
     SC: {
       name: "South Carolina",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>3</strong> <br> Individuals Affected: <strong>91,242</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     KY: {
       name: "Kentucky",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>6</strong> <br> Individuals Affected: <strong>28,809</strong>",
+      color: "#A9A9A9",
       zoomable: "no",
       hover_color: "default",
       url: "default"
     },
     AL: {
       name: "Alabama",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>27,000</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     LA: {
       name: "Louisiana",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>2</strong> <br> Individuals Affected: <strong>32,587</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     MS: {
       name: "Mississippi",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>2</strong> <br> Individuals Affected: <strong>50,642</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     IA: {
       name: "Iowa",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>9</strong> <br> Individuals Affected: <strong>1,504,021</strong>",
+      color: "#383838",
       hover_color: "default",
       url: "default"
     },
     MN: {
       name: "Minnesota",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>15</strong> <br> Individuals Affected: <strong>105,641</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     OK: {
       name: "Oklahoma",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>2</strong> <br> Individuals Affected: <strong>2,034</strong>",
+      color: "#E0E0E0",
       hover_color: "default",
       url: "default"
     },
     TX: {
       name: "Texas",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>31</strong> <br> Individuals Affected: <strong>1,599,638</strong>",
+      color: "#383838",
       hover_color: "default",
       url: "default"
     },
     NM: {
       name: "New Mexico",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>2</strong> <br> Individuals Affected: <strong>4,784</strong>",
+      color: "#E0E0E0",
       hover_color: "default",
       url: "default"
     },
     KS: {
       name: "Kansas",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>6</strong> <br> Individuals Affected: <strong>99,247</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     NE: {
       name: "Nebraska",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>5</strong> <br> Individuals Affected: <strong>121,495</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     SD: {
       name: "South Dakota",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>696</strong>",
+      color: "#F8F8F8",
       hover_color: "default",
       url: "default"
     },
     ND: {
       name: "North Dakota",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>1,813</strong>",
+      color: "#E0E0E0",
       hover_color: "default",
       url: "default"
     },
@@ -363,71 +363,71 @@ var simplemaps_usmap_mapdata={
     },
     MT: {
       name: "Montana",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>2</strong> <br> Individuals Affected: <strong>14,435</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     CO: {
       name: "Colorado",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>5</strong> <br> Individuals Affected: <strong>31,339</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
     UT: {
       name: "Utah",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>4</strong> <br> Individuals Affected: <strong>184,062</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     AZ: {
       name: "Arizona",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>8</strong> <br> Individuals Affected: <strong>65,966</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     NV: {
       name: "Nevada",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>1</strong> <br> Individuals Affected: <strong>3,200</strong>",
+      color: "#E0E0E0",
       hover_color: "default",
       url: "default"
     },
     OR: {
       name: "Oregon",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>9</strong> <br> Individuals Affected: <strong>54,001</strong>",
+      color: "#909090",
       hover_color: "default",
       url: "default"
     },
     WA: {
       name: "Washington",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>9</strong> <br> Individuals Affected: <strong>1,421,912</strong>",
+      color: "#383838",
       hover_color: "default",
       url: "default"
     },
     CA: {
       name: "California",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>27</strong> <br> Individuals Affected: <strong>385,883</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     MI: {
       name: "Michigan",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>11</strong> <br> Individuals Affected: <strong>121,388</strong>",
+      color: "#696969",
       hover_color: "default",
       url: "default"
     },
     ID: {
       name: "Idaho",
-      description: "default",
-      color: "default",
+      description: "Breach Count: <strong>3</strong> <br> Individuals Affected: <strong>14,062</strong>",
+      color: "#A9A9A9",
       hover_color: "default",
       url: "default"
     },
@@ -470,25 +470,6 @@ var simplemaps_usmap_mapdata={
       hover_color: "default",
       url: "default",
       hide: "yes"
-    }
-  },
-  locations: {
-    "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74,
-      description: "default",
-      color: "default",
-      url: "default",
-      type: "default",
-      size: "default"
-    },
-    "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778,
-      color: "default",
-      type: "circle"
     }
   },
   labels: {

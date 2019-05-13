@@ -8,11 +8,11 @@ var chart = new Chart(ctx, {
     data: {
         labels: ['Hacking/IT', 'Disclosure', 'Disposal', 'Theft', 'Loss'],
         datasets: [{
-            label:  "OCR Count",
+            label:  "OCR Count of Individuals Affected",
             backgroundColor: 'rgb(0,0,0)',
             borderColor: 'rgb(0,0,0)',
             hoverBackgroundColor: 'rgb(255,255,255)',
-            data: [348358, 1915850, 0, 37566, 0] 
+            data: [189325, 1857997, 0, 1335, 0] 
         }]
     },
 
@@ -37,7 +37,7 @@ scaleFontColor: 'rgb(0,0,0)',
             yAxes: [{
                  ticks: {
                     suggestedMin: 0,
-                    suggestedMax: 6500000,
+                    suggestedMax: 6000000,
                     fontColor: 'rgb(255,255,255)',
                     callback: function(label, index, labels) {
         switch (label) {
@@ -55,8 +55,6 @@ scaleFontColor: 'rgb(0,0,0)',
                 return '5M';
             case 6000000:
                 return '6M';
-            case 7000000:
-                return '7M';
         }       
     }   
                 },

@@ -8,11 +8,11 @@ var chart = new Chart(ctx, {
     data: {
         labels: ['Healthcare Provider', 'Health Plan', 'Business Associate'],
         datasets: [{
-            label:  "OCR Count",
+            label:  "Count Investigated by OCR",
             backgroundColor: 'rgb(0,0,0)',
             borderColor: 'rgb(0,0,0)',
             hoverBackgroundColor: 'rgb(255,255,255)',
-            data: [240, 42, 45] 
+            data: [241, 43, 44] 
         }]
     },
 
